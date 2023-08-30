@@ -1,0 +1,23 @@
+
+public class TableApp {
+public static void main(String[] args) {
+
+	Table t1=new Table();
+	t1.seatingCapacity=6;
+	t1.cost=4500;
+	t1.color="Brown";
+	t1.brand="Greenply";
+	t1.allowToSit();
+	t1.allowToWrite();
+	System.out.println(t1.seatingCapacity+" "+t1.cost+" "+t1.color+" "+t1.brand+" ");
+	
+	Table t2=new Table();
+	t2.seatingCapacity=4;
+	t2.cost=3000;
+	t2.color="Black";
+	t2.brand="Greenply";
+	t2.allowToSit();
+	t2.allowToWrite();
+	System.out.println(t2.seatingCapacity+" "+t2.cost+" "+t2.color+" "+t2.brand+" ");
+	}
+}
